@@ -1,0 +1,102 @@
+
+html,
+body{
+    
+    height:100vh;
+}
+
+main{
+    padding-right: 0 !important;
+    background-color: #ac4747;
+}
+
+.hide {
+    display:none;
+}
+
+.container-fluid {
+    display: flex;
+}
+
+.navColor{
+    background-color: #d8a0a0;
+    border-bottom: 1px solid black;
+}
+
+.second-header {
+    text-decoration: underline;
+    
+}
+
+#btnDetails {
+    margin-left: 20px;
+    margin-top: 10px;
+    
+}
+#list {
+    flex: 2;
+    margin-right: 15px;
+}
+
+#capture-form {
+    flex: 1;
+    height: calc(100vh - 56px);
+    background-color: #d8a0a0;
+    padding: 20px;
+   border:5px ridge white;
+}
+
+.category-flex {
+    display: flex;
+}
+
+
+#txtCategory {
+    margin-left: 7px;;
+}
+
+#iImportant {
+    font-size: 32px;
+    cursor: pointer;
+}
+
+#iImportant.far {
+    color: #666;
+}
+
+#iImportant.fas {
+    color: #b83232;
+}
+
+#saveBtn {
+    margin-top: 5px;
+    border-radius: 6px;
+}
+.task{
+    display: flex;
+    align-items: center;
+    border: 1px solid #333;
+    border-radius: 4px;
+    padding: 10px 15px;
+    background-color: #d8a0a0;
+    margin-bottom: 5px;
+}
+
+.task i,
+.task button{
+    flex: 3;
+}
+
+.task .location,
+.task .due-date {
+    
+    flex:4;
+}
+
+.task .description{
+    flex: 9;
+}
+
+#delete {
+    margin-left: 2px;
+}
